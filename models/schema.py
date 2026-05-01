@@ -2,7 +2,6 @@ from pydantic import BaseModel, Field
 
 
 class PlanLengthEstimate(BaseModel):
-    """Structured output for how many study days the learner likely needs."""
 
     num_days: int = Field(description="Number of consecutive study days to plan")
     rationale: str = Field(
