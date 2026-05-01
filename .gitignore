@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+
+.env
+.venv/
+venv/
+.conda/
+
+.ipynb_checkpoints/
+
+.DS_Store
+
+data/study_memory.json
+
+.cursor/notbk.ipynb
